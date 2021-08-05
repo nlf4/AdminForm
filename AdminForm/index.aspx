@@ -12,20 +12,17 @@
    <form runat="server"> 
         <div class="district-input">
             <label for="id">ID:</label>
-           <%-- <input type="text" />--%>
             <asp:TextBox ID="id" runat="server"></asp:TextBox>
         </div>
 
         <div class="district-input">
             <label for="name">Name:</label>
-          <%--  <input type="text" />--%>
             <asp:TextBox ID="name" runat="server"></asp:TextBox>
         </div>
         
 
         <div class="district-input">
             <label for="irn">IRN:</label>
-           <%-- <input type="text" />--%>
             <asp:TextBox ID="irn" runat="server"></asp:TextBox>
         </div>
         
