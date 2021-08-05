@@ -12,26 +12,30 @@
    <form runat="server"> 
         <div class="district-input">
             <label for="id">ID:</label>
-            <input type="text" />
+           <%-- <input type="text" />--%>
             <asp:TextBox ID="id" runat="server"></asp:TextBox>
         </div>
 
         <div class="district-input">
             <label for="name">Name:</label>
-            <input type="text" />
+          <%--  <input type="text" />--%>
             <asp:TextBox ID="name" runat="server"></asp:TextBox>
         </div>
         
 
         <div class="district-input">
             <label for="irn">IRN:</label>
-            <input type="text" />
+           <%-- <input type="text" />--%>
             <asp:TextBox ID="irn" runat="server"></asp:TextBox>
         </div>
         
 
-        <button type="submit">Search</button>
-        <asp:Button ID="Button1" runat="server" Text="Search2" OnClick="Button1_Click" />
+       
+       <asp:Button ID="Button1" runat="server" Text="Create" OnClick="Button1_Click" />
+        <asp:Button ID="Button2" runat="server" Text="Search" OnClick="Button2_Click" />
+
+
+       <asp:GridView ID="GridView1" runat="server"></asp:GridView>
        </form>
 
 </div>
