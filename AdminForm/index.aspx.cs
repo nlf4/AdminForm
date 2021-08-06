@@ -12,7 +12,10 @@ namespace AdminForm
     public partial class index : System.Web.UI.Page
     {
 
+        //SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=|DataDirectory|\SchoolDistrict.mdf;Integrated Security = True");
         SqlConnection con = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=|DataDirectory|\SchoolDistrict.mdf;Integrated Security = True");
+ 
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (con.State == ConnectionState.Open)
